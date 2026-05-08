@@ -51,14 +51,14 @@ Output: # Section Title
 ## Project Structure
 
 ```
-├── vlm_qlora_finetune.ipynb   # Main Kaggle notebook (all parts)
+├── DocumentToMarkdown.ipynb   # Main Kaggle notebook (all parts)
 ├── README.md
 └── outputs/
     ├── loss_curve.png          # Training & validation loss plot
-    ├── val_pred_*.png          # Validation predictions (image | GT | generated)
-    ├── train_pred_*.png        # Training image predictions
-    ├── unseen_pred_*.png       # Unseen image predictions
-    ├── compare_zs_ft_*.png     # Zero-shot vs fine-tuned comparison
+    ├── val_pred_1.png          # Validation predictions (image | GT | generated)
+    ├── train_pred_1.png        # Training image predictions
+    ├── unseen_pred_1.png       # Unseen image predictions
+    ├── compare_zs_ft_1.png     # Zero-shot vs fine-tuned comparison
     ├── rouge_metrics.csv       # ROUGE-1/2/L scores
 
 ```
